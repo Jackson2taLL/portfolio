@@ -4,21 +4,22 @@ html {
   font-size: 62.5%;
 }
 
+// remove default margin
+// set font family of body with a fallback
+// font weight 300(light) and font size to 11
+// 1.4 specifies the line height as a multiplier of the font size
+// hides any content that overflows the body horizontally or vertically
+// body will be a block level element
+// imporves the appearance of text by applying anti-aliasing (Safari and Chrome)
+// applies grayscale anti aliasing to text (Firefox on macOS)
+
 body {
-  //remove default margin
   margin: 0;
-  // set font family of body with a fallback
-  // font weight 300(light) and font size to 11
-  // 1.4 specifies the line height as a multiplier of the font size
   font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
   background: #022c43;
-  // hides any content that overflows the body horizontally or vertically
   overflow: hidden;
-  // body will be a block level element
   display: block;
-  // imporves the appearance of text by applying anti-aliasing (Safari and Chrome)
   -webkit-font-smoothing: antialiased;
-  // applies grayscale anti aliasing to text (Firefox on macOS)
   -moz-osx-font-smoothing: grayscale;
 }
