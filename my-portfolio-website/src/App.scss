@@ -1,7 +1,10 @@
+// define a sass variable named primary color
 $primary-color: #ffd700;
 
+// imports contents of animate.css to use in sass file
 @import 'animate.css';
 
+// defines the font face for the font family by locating them in the assets folder
 @font-face {
   font-family: 'Helvetica Neue';
   src: url('./assets/fonts/helvetica-neu.ttf') format('ttf');
@@ -17,6 +20,7 @@ $primary-color: #ffd700;
   src: url('./assets/fonts/CoolveticaRg-Regular.woff2') format('woff2');
 }
 
+// sets the font family for all <input>  and <textarea> elements
 input,
 textarea {
   font-family: 'Helvetica Neue';
