@@ -1,23 +1,23 @@
-// set base font size for the entire document to 62.5% of the default font size
-// Used to work with rem units making 1 rem equal to 10 pixels
+/* set base font size for the entire document to 62.5% of the default font size
+Used to work with rem units making 1 rem equal to 10 pixels */
 html {
   font-size: 62.5%;
 }
 
-// remove default margin
-// set font family of body with a fallback
-// font weight 300(light) and font size to 11
-// 1.4 specifies the line height as a multiplier of the font size
-// hides any content that overflows the body horizontally or vertically
-// body will be a block level element
-// imporves the appearance of text by applying anti-aliasing (Safari and Chrome)
-// applies grayscale anti aliasing to text (Firefox on macOS)
+/* remove default margin
+set font family of body with a fallback
+font weight 300(light) and font size to 11
+1.4 specifies the line height as a multiplier of the font size
+hides any content that overflows the body horizontally or vertically
+body will be a block level element
+imporves the appearance of text by applying anti-aliasing (Safari and Chrome)
+applies grayscale anti aliasing to text (Firefox on macOS) */
 
 body {
   margin: 0;
-  font-family: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
+  font: 300 11px/1.4 'Helvetica Neue', 'sans-serif';
   color: #444;
-  background: #022c43;
+  background: #efc6c0;
   overflow: hidden;
   display: block;
   -webkit-font-smoothing: antialiased;
