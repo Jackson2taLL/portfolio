@@ -12,7 +12,7 @@ const Layout = (props) => {
 
         <Outlet />
 
-        <span className="tags ottom-tags">
+        <span className="tags bottom-tags">
           &lt;/body&gt;
           <br />
           <span className="bottom-tag-html">&lt;/html&gt;</span>
